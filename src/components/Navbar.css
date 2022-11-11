@@ -1,0 +1,54 @@
+.navButton{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    border-radius: 10px;
+    width: 170px;
+    height: 48px;
+}
+
+.navButton span {
+    width: 117px;
+    height: 20px;
+    left: 27px;
+    top: 15px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.logo img{
+    width: 233px;
+    height: 36.67px;
+}
+
+.nav_items {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navText {
+    height: 25px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #434343;
+    margin: 15px;
+}
+
+.section{
+    width: 100%;
+    background-color: white !important;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
