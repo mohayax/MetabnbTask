@@ -1,20 +1,30 @@
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Banner from "./components/Banner";
-import Cards from './components/Cards';
-import Info from './components/Info';
+import Home from "./components/Home";
 import Footer from "./components/Footer";
+import PlaceToStay from "./components/PlaceToStay";
+
+import {
+  BrowserRouter as Router,
+  Routes, Route, Link
+} from "react-router-dom"
 
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Header />
-      <Banner />
-      <Cards />
-      <Info />
-      <Footer />
+      <Router>
+        <div>
+          <Navbar />
+        </div>
+        <Routes>
+          <Route path="/placetostay" element={<PlaceToStay />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
+
+        <div>
+          <Footer />
+        </div>
+      </Router>
     </>
   )
 }

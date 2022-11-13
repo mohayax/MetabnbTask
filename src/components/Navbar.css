@@ -42,7 +42,7 @@
 }
 
 .section{
-    width: 100vw;
+    width: 100%;
     background-color: white !important;
 }
 
@@ -52,3 +52,17 @@
     width: 90vw;
 }
 
+.n-link {
+    padding: 8px;
+    line-height: 25px;
+    height: 25px;
+    text-decoration: none;
+    font-family: 'Red Rose';
+    font-style: normal;
+    color: gray;
+    margin: 15px;
+}
+
+.n-link:hover{
+    color: #434343;
+}

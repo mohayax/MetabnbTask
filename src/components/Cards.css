@@ -26,3 +26,64 @@
     line-height: 60px;
     color: #000000;
 }
+
+.more-links{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .tags{
+    
+} */
+
+.tags a{
+    text-decoration: none;
+    font-family: 'Red Rose';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+     color: #434343;
+}
+
+.tags a:hover{
+color: #434343;
+}
+
+.tags-btn{
+    text-align: center;
+    padding: 10px 7px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 48px;
+    width: 160px;
+    background-color: #FFFFFF;
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+}
+.tags-btn p a{
+font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+   color: #333333;
+}
+
+.tags-btn a i{
+    text-decoration: none;
+    color: #333333;
+}
+
+.placeToStay{
+    margin-bottom: 50px;
+}
+
+
