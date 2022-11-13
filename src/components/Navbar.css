@@ -42,13 +42,13 @@
 }
 
 .section{
-    width: 100%;
+    width: 100vw;
     background-color: white !important;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 90vw;
 }
 

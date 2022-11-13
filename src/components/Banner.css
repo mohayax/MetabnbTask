@@ -1,0 +1,12 @@
+.bannerContainer{
+    margin-top: 40px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    height: 70px;
+    width: 100vw;
+}
+
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
