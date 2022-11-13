@@ -1,0 +1,36 @@
+#footer{
+    background-color: #1D1D1E;;
+}
+.copy{
+    margin-top: 40px;
+}
+.copy p {
+    color: white;
+}
+.footer-items{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: column;
+}
+.social-icons i{  
+
+margin-top: 90px;    
+width: 10px;
+height: 10px;
+color: #fff;
+}
+
+.facebook{
+    margin-right: 40px;
+}
+.insta{
+    margin-right: 40px;
+}

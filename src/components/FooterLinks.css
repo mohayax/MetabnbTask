@@ -1,0 +1,26 @@
+.footer-links{
+    margin-top: 40px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.linksTitle{
+    margin-bottom: 20px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.linkItems a{
+    text-decoration: none;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #F1F3F9;
+}

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Cards from './components/Cards';
 import Info from './components/Info';
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <Cards />
       <Info />
+      <Footer />
     </>
   )
 }
