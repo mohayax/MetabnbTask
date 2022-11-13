@@ -1,0 +1,53 @@
+.InfoContainer{
+    margin-top: 40px;
+    background-color: #A02279;
+}
+
+.innerContainer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info-img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.info-img img{
+    width: 604px;
+    height: 474.85px;
+}
+.info-text{
+    margin-top: 150px;
+}
+.title p{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.info{
+    margin-top: 30px;
+    width: 415px;
+}
+.info p{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.info-btn{
+    margin-top: 40px;
+}
+.info-btn button{
+    width: 156px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    color: #A02279;
+}
