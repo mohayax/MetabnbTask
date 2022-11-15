@@ -11,18 +11,46 @@ import f6 from '../assets/images/Frame6.png'
 import f7 from '../assets/images/Frame7.png'
 
 
+
+
 const PlaceToStay = () => {
 
-    const tags = ['Restaurant', 'Cottage', 'Castle', 'fantast city', 'beach', 'Carbins', 'Off-grid','Farm']
+  const tag1 = ['Restaurant', 'Cottage', 'Castle', 'fantast city'];
+  const tag2 = ['beach', 'Carbins', 'Off-grid','Farm'];
+  const tags = tag1.concat(tag2);
+
+
   return (
     <>
-    <div className="more-links">
-        {tags.map((item, i) => <div className='tags' key={i}><a href='#'>{item}</a></div>)}
-        <div className="tags-btn">
-        <p>Location</p>
-        <a href="#"><i class="fa-solid fa-sliders"></i></a>
+    <div className='web'>
+        <div className="more-links">
+          {tags.map((item, i) => <div className='tags' key={i}><a href='#'>{item}</a></div>)}
+          <div className="tags-btn">
+            <p>Location</p>
+            <a href="#"><i class="fa-solid fa-sliders"></i></a>
+          </div>
         </div>
     </div>
+
+      <div className='mobile'>
+        <div className="more-links">
+          <div className='link_container'>
+            <div className="tag-links">
+              {tag1.map((item, i) => <div className='tags' key={i}><a href='#'>{item}</a></div>)}
+            </div>
+
+            <div className="tag-links">
+              {tag2.map((item, i) => <div className='tags' key={i}><a href='#'>{item}</a></div>)}
+            </div>
+          </div>
+          <div className="tags-btn">
+            <p>Location</p>
+            <a href="#"><i class="fa-solid fa-sliders"></i></a>
+          </div>
+        </div>
+      </div>
+
+
       <div className="cardsItems placeToStay">
         <Card img={image} name="Desert king" price="1MBT per night" distance="2345km away" availabilty="available for 2weeks stay" />
         <Card img={f1} name="Desert king" price="1MBT per night" distance="2345km away" availabilty="available for 2weeks stay" />

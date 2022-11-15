@@ -10,3 +10,15 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+@media (max-width:820px){
+    .bannerContainer{
+        height: 25vh;
+    }
+    .itemContainer {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+}

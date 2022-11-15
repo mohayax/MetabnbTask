@@ -42,11 +42,13 @@
 }
 
 .section{
-    width: 100%;
+    width: 100vw;
     background-color: white !important;
 }
 
 .container{
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-between;
     width: 90vw;
@@ -65,4 +67,21 @@
 
 .n-link:hover{
     color: #434343;
+}
+
+
+@media (max-width:820px){
+    .container{
+        width: 90vw;
+        margin-top: 20px;
+    }
+
+    .section {
+        width: 100vw;
+    }
+
+    .logo img {
+        width: 190px;
+        height: 26.67px;
+    }
 }

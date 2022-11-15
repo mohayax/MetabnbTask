@@ -1,5 +1,5 @@
 .cards_container{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -86,4 +86,54 @@ font-family: 'Red Rose';
     margin-bottom: 50px;
 }
 
+.mobile{
+    display: none;
+}
 
+.web {
+    display: contents;
+}
+
+@media (max-width:820px){
+    .cardsHeader {
+            font-weight: 500;
+            font-size: 21px;
+        }
+
+     .cardsItems{
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 30px;
+            
+     }  
+    .tag-links{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .more-links{
+        flex-direction: column;
+        justify-content: space-around;
+        width: 90vw;
+    }
+
+    .link_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .tags-btn{
+        width: 78vw;
+    }
+
+    .mobile{
+        display: contents;
+    }
+
+    .web{
+        display: none;
+    }
+}

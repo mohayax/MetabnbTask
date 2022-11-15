@@ -19,3 +19,13 @@
     height: 50px;
     width: 50px;
 }
+
+
+@media (max-width:820px){
+    .bannerIcon img {
+            height: 30px;
+            width: 30px;
+        }
+    .txtBanner {
+            font-weight: 600;}
+}
